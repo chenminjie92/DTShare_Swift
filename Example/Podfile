@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'DTShare_Swift_Example' do
+  pod 'DTShare_Swift', :path => '../'
+
+  target 'DTShare_Swift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

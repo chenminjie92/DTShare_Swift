@@ -1,0 +1,829 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020310665A17AEFCA27A62537CC1896D /* DTOpenKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E86A27D8D0B9E2A6AD4554D8101387B5 /* DTOpenKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27FAF6A712EF4C0108E62DC72CF0E6C9 /* Pods-DTShare_Swift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC14929DD400EA86E67488CAC12743AC /* Pods-DTShare_Swift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31636DF191DA01324CC0810258BFFAC4 /* DTShare_Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CED2C0AE781E3518BABC158E6D2B1663 /* DTShare_Swift-dummy.m */; };
+		38D0FB594121B9D72E4AE89A4ADA72D7 /* DTShareKit in Sources */ = {isa = PBXBuildFile; fileRef = 9AB3480CC4A32CE2AC83D8EEEB6F9E58 /* DTShareKit */; };
+		4677A01496110EB4B1F58B41955DA62E /* Pods-DTShare_Swift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA3E7BE3C32933F120548F47B6BBFA8 /* Pods-DTShare_Swift_Example-dummy.m */; };
+		4AC4B1BE62F2B3B45FE210E5C710466C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8C9E2397EF4851112D61205C0E637C5F /* DTShareKit in Sources */ = {isa = PBXBuildFile; fileRef = 21E930ADC1BB14DBF99D6EEC19FCD2D1 /* DTShareKit */; };
+		8CED07A7FBAC2F0091078EBD73B17E89 /* Pods-DTShare_Swift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D51275A7146D7A3EA4D42A7DD2B0B5FB /* Pods-DTShare_Swift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9760248C0F151A825D7385533FC60451 /* DTOpenAPIObject.h in Headers */ = {isa = PBXBuildFile; fileRef = AC5BF05EBDB1E54BBCAB40ABBD9E4233 /* DTOpenAPIObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8597F6B1D00DD95794A50D1C9553948 /* Pods-DTShare_Swift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE4519BDA0CFF50B0C4D590C7F54D91 /* Pods-DTShare_Swift_Tests-dummy.m */; };
+		C43B56C0FEAFD0482CE6C45811356028 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DCF307B67EACEA6C1AEEC8C594538E48 /* DTOpenAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = A9EA790650788CC5E1F1B1505F95C978 /* DTOpenAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DED6D1E4EBAE55A06E95321197AB3A26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EC2BECFA7D069971C1741B731B2C2D6A /* DTShare_Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85306B193B81368747A3E92D78BEB773 /* DTShare_Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29CE8472B5F8E2B2BB813768D4798B34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17ACA6E471A05BB6B8F73E420C9CA310;
+			remoteInfo = "Pods-DTShare_Swift_Example";
+		};
+		A05E4800D117353AFEEA48804A71D0D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 360BAA661454543D9373C9B3DBF8EB7E;
+			remoteInfo = DTShare_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21E930ADC1BB14DBF99D6EEC19FCD2D1 /* DTShareKit */ = {isa = PBXFileReference; includeInIndex = 1; path = DTShareKit; sourceTree = "<group>"; };
+		4410829E547309D432CFC7F533C6369A /* DTShare_Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DTShare_Swift-Info.plist"; sourceTree = "<group>"; };
+		5863C61621C8A7EDF2E1B2BF0CCBE3D7 /* Pods-DTShare_Swift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DTShare_Swift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		63BE1A0F632C2E67C79EA03AF871C23C /* DTShare_Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTShare_Swift-prefix.pch"; sourceTree = "<group>"; };
+		6AA3E7BE3C32933F120548F47B6BBFA8 /* Pods-DTShare_Swift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DTShare_Swift_Example-dummy.m"; sourceTree = "<group>"; };
+		7274380682E9DEA667E7BC5F35AF029A /* Pods-DTShare_Swift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DTShare_Swift_Example-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7877BB402D0E994DD7B87A0D62F5583B /* Pods-DTShare_Swift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTShare_Swift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8225C9BDC3B4F56907A148A885DC827A /* DTShare_Swift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DTShare_Swift; path = DTShare_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85306B193B81368747A3E92D78BEB773 /* DTShare_Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTShare_Swift-umbrella.h"; sourceTree = "<group>"; };
+		887F3087A770E8634B2B1F818662210F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		89624BAB30CCFC1220FA5BFFCCE60596 /* Pods-DTShare_Swift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DTShare_Swift_Tests.modulemap"; sourceTree = "<group>"; };
+		965E0545858E1981EB16EA0318E36D04 /* DTShare_Swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DTShare_Swift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		975C67F23394A975F9B5E4DBA20E2C75 /* Pods-DTShare_Swift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTShare_Swift_Example.release.xcconfig"; sourceTree = "<group>"; };
+		99AB5A0EAB796D7487A4CA708FAEB43B /* Pods-DTShare_Swift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DTShare_Swift_Example.modulemap"; sourceTree = "<group>"; };
+		9AB3480CC4A32CE2AC83D8EEEB6F9E58 /* DTShareKit */ = {isa = PBXFileReference; includeInIndex = 1; name = DTShareKit; path = DTShare_Swift/Classes/DTShareKit.framework/Versions/A/DTShareKit; sourceTree = "<group>"; };
+		9D2317BA0761E7D00F6E4A545319BADB /* DTShare_Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DTShare_Swift.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9EA790650788CC5E1F1B1505F95C978 /* DTOpenAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTOpenAPI.h; sourceTree = "<group>"; };
+		AC5BF05EBDB1E54BBCAB40ABBD9E4233 /* DTOpenAPIObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTOpenAPIObject.h; sourceTree = "<group>"; };
+		B091524E65980E7058230BF7DD2F3356 /* Pods-DTShare_Swift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DTShare_Swift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B85928954572FE4DC58310F3D0D667F3 /* DTShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DTShareKit.framework; path = DTShare_Swift/Classes/DTShareKit.framework; sourceTree = "<group>"; };
+		C4A6C3B444BCE50FBAE76EC6D08A41AA /* Pods-DTShare_Swift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTShare_Swift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C58405429AD2F1F52354BD5E1F930C24 /* DTShare_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DTShare_Swift.release.xcconfig; sourceTree = "<group>"; };
+		C7214860C8B0CD7D7A986975CC5D555F /* Pods-DTShare_Swift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DTShare_Swift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CCE4519BDA0CFF50B0C4D590C7F54D91 /* Pods-DTShare_Swift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DTShare_Swift_Tests-dummy.m"; sourceTree = "<group>"; };
+		CE699B81BB0F7E13ECEFD4DDD1759C1D /* Pods-DTShare_Swift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTShare_Swift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CED2C0AE781E3518BABC158E6D2B1663 /* DTShare_Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTShare_Swift-dummy.m"; sourceTree = "<group>"; };
+		D0D643621D3E3DEA7A2C277AD0B60442 /* DTShare_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DTShare_Swift.debug.xcconfig; sourceTree = "<group>"; };
+		D4451DF2C7BD0080A4F923D992A7BD2A /* Pods-DTShare_Swift_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DTShare_Swift_Example"; path = Pods_DTShare_Swift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51275A7146D7A3EA4D42A7DD2B0B5FB /* Pods-DTShare_Swift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DTShare_Swift_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D5DF7F32F4E2F7958620F3E27BD24E09 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D721B6C1A55BB4FC48A87AB54883A068 /* Pods-DTShare_Swift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DTShare_Swift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DBDF44BEF96E43E3D510F620923CEBA1 /* Pods-DTShare_Swift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DTShare_Swift_Tests-Info.plist"; sourceTree = "<group>"; };
+		E86A27D8D0B9E2A6AD4554D8101387B5 /* DTOpenKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTOpenKit.h; sourceTree = "<group>"; };
+		EC14929DD400EA86E67488CAC12743AC /* Pods-DTShare_Swift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DTShare_Swift_Example-umbrella.h"; sourceTree = "<group>"; };
+		F6250D213D77096406D82331747C8AB3 /* Pods-DTShare_Swift_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DTShare_Swift_Tests"; path = Pods_DTShare_Swift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E43D5BC6FEF54F666699EE53A10A8F5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED6D1E4EBAE55A06E95321197AB3A26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6A9F0D572A64E9097B525CC06BB6613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC4B1BE62F2B3B45FE210E5C710466C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE34D8F3D61489389644C529E752063E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43B56C0FEAFD0482CE6C45811356028 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		179D46E15695B8720B8BD5C6A706D359 /* A */ = {
+			isa = PBXGroup;
+			children = (
+				21E930ADC1BB14DBF99D6EEC19FCD2D1 /* DTShareKit */,
+				41603ED796CF9B1F2F7D03749E4CA8FB /* Headers */,
+			);
+			name = A;
+			path = A;
+			sourceTree = "<group>";
+		};
+		41603ED796CF9B1F2F7D03749E4CA8FB /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				A9EA790650788CC5E1F1B1505F95C978 /* DTOpenAPI.h */,
+				AC5BF05EBDB1E54BBCAB40ABBD9E4233 /* DTOpenAPIObject.h */,
+				E86A27D8D0B9E2A6AD4554D8101387B5 /* DTOpenKit.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		4AFCF3FED7907D14C1D32941F91AF847 /* Versions */ = {
+			isa = PBXGroup;
+			children = (
+				179D46E15695B8720B8BD5C6A706D359 /* A */,
+			);
+			name = Versions;
+			path = DTShare_Swift/Classes/DTShareKit.framework/Versions;
+			sourceTree = "<group>";
+		};
+		536BDDC36FCE71C0C872A6BA1A872EDF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74C8616029C045D924E77F08677ACAB0 /* Pods-DTShare_Swift_Example */,
+				F81D5F00B2AB83030E4BD12623B2AED0 /* Pods-DTShare_Swift_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6FF2CD0700BBEE3DD15C80151E1228F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B85928954572FE4DC58310F3D0D667F3 /* DTShareKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74C8616029C045D924E77F08677ACAB0 /* Pods-DTShare_Swift_Example */ = {
+			isa = PBXGroup;
+			children = (
+				99AB5A0EAB796D7487A4CA708FAEB43B /* Pods-DTShare_Swift_Example.modulemap */,
+				C7214860C8B0CD7D7A986975CC5D555F /* Pods-DTShare_Swift_Example-acknowledgements.markdown */,
+				D721B6C1A55BB4FC48A87AB54883A068 /* Pods-DTShare_Swift_Example-acknowledgements.plist */,
+				6AA3E7BE3C32933F120548F47B6BBFA8 /* Pods-DTShare_Swift_Example-dummy.m */,
+				7274380682E9DEA667E7BC5F35AF029A /* Pods-DTShare_Swift_Example-Info.plist */,
+				EC14929DD400EA86E67488CAC12743AC /* Pods-DTShare_Swift_Example-umbrella.h */,
+				C4A6C3B444BCE50FBAE76EC6D08A41AA /* Pods-DTShare_Swift_Example.debug.xcconfig */,
+				975C67F23394A975F9B5E4DBA20E2C75 /* Pods-DTShare_Swift_Example.release.xcconfig */,
+			);
+			name = "Pods-DTShare_Swift_Example";
+			path = "Target Support Files/Pods-DTShare_Swift_Example";
+			sourceTree = "<group>";
+		};
+		861D72C671C83981A5A06FF20A76F396 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				965E0545858E1981EB16EA0318E36D04 /* DTShare_Swift.podspec */,
+				D5DF7F32F4E2F7958620F3E27BD24E09 /* LICENSE */,
+				887F3087A770E8634B2B1F818662210F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		89349887206DD2621C5C084DCA97E480 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F631182649D966214C23444FF8586586 /* DTShare_Swift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CE69731DAEAF17802879E83E1E33381B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8225C9BDC3B4F56907A148A885DC827A /* DTShare_Swift */,
+				D4451DF2C7BD0080A4F923D992A7BD2A /* Pods-DTShare_Swift_Example */,
+				F6250D213D77096406D82331747C8AB3 /* Pods-DTShare_Swift_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				89349887206DD2621C5C084DCA97E480 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				CE69731DAEAF17802879E83E1E33381B /* Products */,
+				536BDDC36FCE71C0C872A6BA1A872EDF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB583B5E8083BE83DAF9162BE30B4EE8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D2317BA0761E7D00F6E4A545319BADB /* DTShare_Swift.modulemap */,
+				CED2C0AE781E3518BABC158E6D2B1663 /* DTShare_Swift-dummy.m */,
+				4410829E547309D432CFC7F533C6369A /* DTShare_Swift-Info.plist */,
+				63BE1A0F632C2E67C79EA03AF871C23C /* DTShare_Swift-prefix.pch */,
+				85306B193B81368747A3E92D78BEB773 /* DTShare_Swift-umbrella.h */,
+				D0D643621D3E3DEA7A2C277AD0B60442 /* DTShare_Swift.debug.xcconfig */,
+				C58405429AD2F1F52354BD5E1F930C24 /* DTShare_Swift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DTShare_Swift";
+			sourceTree = "<group>";
+		};
+		F631182649D966214C23444FF8586586 /* DTShare_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				9AB3480CC4A32CE2AC83D8EEEB6F9E58 /* DTShareKit */,
+				6FF2CD0700BBEE3DD15C80151E1228F1 /* Frameworks */,
+				861D72C671C83981A5A06FF20A76F396 /* Pod */,
+				EB583B5E8083BE83DAF9162BE30B4EE8 /* Support Files */,
+				4AFCF3FED7907D14C1D32941F91AF847 /* Versions */,
+			);
+			name = DTShare_Swift;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F81D5F00B2AB83030E4BD12623B2AED0 /* Pods-DTShare_Swift_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				89624BAB30CCFC1220FA5BFFCCE60596 /* Pods-DTShare_Swift_Tests.modulemap */,
+				B091524E65980E7058230BF7DD2F3356 /* Pods-DTShare_Swift_Tests-acknowledgements.markdown */,
+				5863C61621C8A7EDF2E1B2BF0CCBE3D7 /* Pods-DTShare_Swift_Tests-acknowledgements.plist */,
+				CCE4519BDA0CFF50B0C4D590C7F54D91 /* Pods-DTShare_Swift_Tests-dummy.m */,
+				DBDF44BEF96E43E3D510F620923CEBA1 /* Pods-DTShare_Swift_Tests-Info.plist */,
+				D51275A7146D7A3EA4D42A7DD2B0B5FB /* Pods-DTShare_Swift_Tests-umbrella.h */,
+				CE699B81BB0F7E13ECEFD4DDD1759C1D /* Pods-DTShare_Swift_Tests.debug.xcconfig */,
+				7877BB402D0E994DD7B87A0D62F5583B /* Pods-DTShare_Swift_Tests.release.xcconfig */,
+			);
+			name = "Pods-DTShare_Swift_Tests";
+			path = "Target Support Files/Pods-DTShare_Swift_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4F2DF1233B3FFCD32177088A5BDC00B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CED07A7FBAC2F0091078EBD73B17E89 /* Pods-DTShare_Swift_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A241FC5A85688AB7FFEC8C887288726 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF307B67EACEA6C1AEEC8C594538E48 /* DTOpenAPI.h in Headers */,
+				9760248C0F151A825D7385533FC60451 /* DTOpenAPIObject.h in Headers */,
+				020310665A17AEFCA27A62537CC1896D /* DTOpenKit.h in Headers */,
+				EC2BECFA7D069971C1741B731B2C2D6A /* DTShare_Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B300D79F022F7410FAB7DAFBFEB2DA7F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FAF6A712EF4C0108E62DC72CF0E6C9 /* Pods-DTShare_Swift_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		17ACA6E471A05BB6B8F73E420C9CA310 /* Pods-DTShare_Swift_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 009E3E372C40F064889E66FFB36A12EB /* Build configuration list for PBXNativeTarget "Pods-DTShare_Swift_Example" */;
+			buildPhases = (
+				B300D79F022F7410FAB7DAFBFEB2DA7F /* Headers */,
+				CCEF9BD1B958027BEA869C6E27FDCBC2 /* Sources */,
+				EE34D8F3D61489389644C529E752063E /* Frameworks */,
+				3DFC9EFB03D9D1612E0135901D83D1E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72FF3C65F4D4F3028329E8D1E9EED386 /* PBXTargetDependency */,
+			);
+			name = "Pods-DTShare_Swift_Example";
+			productName = Pods_DTShare_Swift_Example;
+			productReference = D4451DF2C7BD0080A4F923D992A7BD2A /* Pods-DTShare_Swift_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		360BAA661454543D9373C9B3DBF8EB7E /* DTShare_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28DA358DBF0607A14E652089493BCAFF /* Build configuration list for PBXNativeTarget "DTShare_Swift" */;
+			buildPhases = (
+				8A241FC5A85688AB7FFEC8C887288726 /* Headers */,
+				2AEF76F1F6ADB5602B5307646A6B406C /* Sources */,
+				E6A9F0D572A64E9097B525CC06BB6613 /* Frameworks */,
+				40216FA97125C5AFACE62D574B3719B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DTShare_Swift;
+			productName = DTShare_Swift;
+			productReference = 8225C9BDC3B4F56907A148A885DC827A /* DTShare_Swift */;
+			productType = "com.apple.product-type.framework";
+		};
+		3AE6C2B61C6BECB1799FFCA81C8C82A4 /* Pods-DTShare_Swift_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28AF1B38567DE29666A9895604EC3A58 /* Build configuration list for PBXNativeTarget "Pods-DTShare_Swift_Tests" */;
+			buildPhases = (
+				4F2DF1233B3FFCD32177088A5BDC00B6 /* Headers */,
+				CAE32674387F6ECA528A0D560E0C7F88 /* Sources */,
+				E43D5BC6FEF54F666699EE53A10A8F5B /* Frameworks */,
+				85DD3E8C74D7B668333B7705D40276D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D3D19B4E77E263DD0E7D61C906482F8 /* PBXTargetDependency */,
+			);
+			name = "Pods-DTShare_Swift_Tests";
+			productName = Pods_DTShare_Swift_Tests;
+			productReference = F6250D213D77096406D82331747C8AB3 /* Pods-DTShare_Swift_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CE69731DAEAF17802879E83E1E33381B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				360BAA661454543D9373C9B3DBF8EB7E /* DTShare_Swift */,
+				17ACA6E471A05BB6B8F73E420C9CA310 /* Pods-DTShare_Swift_Example */,
+				3AE6C2B61C6BECB1799FFCA81C8C82A4 /* Pods-DTShare_Swift_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DFC9EFB03D9D1612E0135901D83D1E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40216FA97125C5AFACE62D574B3719B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85DD3E8C74D7B668333B7705D40276D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AEF76F1F6ADB5602B5307646A6B406C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31636DF191DA01324CC0810258BFFAC4 /* DTShare_Swift-dummy.m in Sources */,
+				38D0FB594121B9D72E4AE89A4ADA72D7 /* DTShareKit in Sources */,
+				8C9E2397EF4851112D61205C0E637C5F /* DTShareKit in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE32674387F6ECA528A0D560E0C7F88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8597F6B1D00DD95794A50D1C9553948 /* Pods-DTShare_Swift_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEF9BD1B958027BEA869C6E27FDCBC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4677A01496110EB4B1F58B41955DA62E /* Pods-DTShare_Swift_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D3D19B4E77E263DD0E7D61C906482F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DTShare_Swift_Example";
+			target = 17ACA6E471A05BB6B8F73E420C9CA310 /* Pods-DTShare_Swift_Example */;
+			targetProxy = 29CE8472B5F8E2B2BB813768D4798B34 /* PBXContainerItemProxy */;
+		};
+		72FF3C65F4D4F3028329E8D1E9EED386 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DTShare_Swift;
+			target = 360BAA661454543D9373C9B3DBF8EB7E /* DTShare_Swift */;
+			targetProxy = A05E4800D117353AFEEA48804A71D0D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33DA1653434787B98DD54DF179743EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7877BB402D0E994DD7B87A0D62F5583B /* Pods-DTShare_Swift_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DTShare_Swift_Tests/Pods-DTShare_Swift_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DTShare_Swift_Tests/Pods-DTShare_Swift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46F3AA7993D4955C23A8C0DDAEC4B9D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE699B81BB0F7E13ECEFD4DDD1759C1D /* Pods-DTShare_Swift_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DTShare_Swift_Tests/Pods-DTShare_Swift_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DTShare_Swift_Tests/Pods-DTShare_Swift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F4E05DAB705F216721458D72FD9374F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C58405429AD2F1F52354BD5E1F930C24 /* DTShare_Swift.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DTShare_Swift/DTShare_Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DTShare_Swift/DTShare_Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/DTShare_Swift/DTShare_Swift.modulemap";
+				PRODUCT_MODULE_NAME = DTShare_Swift;
+				PRODUCT_NAME = DTShare_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8087B9C2BE6D14E1116868A7E1BEED3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4A6C3B444BCE50FBAE76EC6D08A41AA /* Pods-DTShare_Swift_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DTShare_Swift_Example/Pods-DTShare_Swift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DTShare_Swift_Example/Pods-DTShare_Swift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C2F6769EE9345BEB5D8412D3AB54F6CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0D643621D3E3DEA7A2C277AD0B60442 /* DTShare_Swift.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DTShare_Swift/DTShare_Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DTShare_Swift/DTShare_Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/DTShare_Swift/DTShare_Swift.modulemap";
+				PRODUCT_MODULE_NAME = DTShare_Swift;
+				PRODUCT_NAME = DTShare_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE69ABAF39913B542E2FBCDD79CCE3B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 975C67F23394A975F9B5E4DBA20E2C75 /* Pods-DTShare_Swift_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DTShare_Swift_Example/Pods-DTShare_Swift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DTShare_Swift_Example/Pods-DTShare_Swift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		009E3E372C40F064889E66FFB36A12EB /* Build configuration list for PBXNativeTarget "Pods-DTShare_Swift_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8087B9C2BE6D14E1116868A7E1BEED3F /* Debug */,
+				CE69ABAF39913B542E2FBCDD79CCE3B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28AF1B38567DE29666A9895604EC3A58 /* Build configuration list for PBXNativeTarget "Pods-DTShare_Swift_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F3AA7993D4955C23A8C0DDAEC4B9D6 /* Debug */,
+				33DA1653434787B98DD54DF179743EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28DA358DBF0607A14E652089493BCAFF /* Build configuration list for PBXNativeTarget "DTShare_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F6769EE9345BEB5D8412D3AB54F6CC /* Debug */,
+				6F4E05DAB705F216721458D72FD9374F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

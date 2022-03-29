@@ -1,0 +1,16 @@
+PODS:
+  - DTShare_Swift (1.9.2)
+
+DEPENDENCIES:
+  - DTShare_Swift (from `../`)
+
+EXTERNAL SOURCES:
+  DTShare_Swift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DTShare_Swift: 9e469cd4621c5d3107971218a688f1fee0af5d39
+
+PODFILE CHECKSUM: 418a103bdaaf5119b8bcfa89581a54713fbc9618
+
+COCOAPODS: 1.11.2
