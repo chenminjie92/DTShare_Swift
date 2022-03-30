@@ -7,93 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		020310665A17AEFCA27A62537CC1896D /* DTOpenKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E86A27D8D0B9E2A6AD4554D8101387B5 /* DTOpenKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27FAF6A712EF4C0108E62DC72CF0E6C9 /* Pods-DTShare_Swift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC14929DD400EA86E67488CAC12743AC /* Pods-DTShare_Swift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		31636DF191DA01324CC0810258BFFAC4 /* DTShare_Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CED2C0AE781E3518BABC158E6D2B1663 /* DTShare_Swift-dummy.m */; };
-		38D0FB594121B9D72E4AE89A4ADA72D7 /* DTShareKit in Sources */ = {isa = PBXBuildFile; fileRef = 9AB3480CC4A32CE2AC83D8EEEB6F9E58 /* DTShareKit */; };
+		3637087C32AF2081DEC39291CC534F52 /* DTShareKit in Sources */ = {isa = PBXBuildFile; fileRef = E24FB9FC15CB8D6590E0C89870088E16 /* DTShareKit */; };
 		4677A01496110EB4B1F58B41955DA62E /* Pods-DTShare_Swift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA3E7BE3C32933F120548F47B6BBFA8 /* Pods-DTShare_Swift_Example-dummy.m */; };
-		4AC4B1BE62F2B3B45FE210E5C710466C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		8C9E2397EF4851112D61205C0E637C5F /* DTShareKit in Sources */ = {isa = PBXBuildFile; fileRef = 21E930ADC1BB14DBF99D6EEC19FCD2D1 /* DTShareKit */; };
+		4E4AC75F4358D6351DB4FA652683E9EF /* DTOpenAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 77D8AAC344578A014D863CCB10ED26A4 /* DTOpenAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		672023474E74D49BED8DD438281854CC /* DTOpenKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FCEA2538F0FB44B2E605625E9AD65C3 /* DTOpenKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CED07A7FBAC2F0091078EBD73B17E89 /* Pods-DTShare_Swift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D51275A7146D7A3EA4D42A7DD2B0B5FB /* Pods-DTShare_Swift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9760248C0F151A825D7385533FC60451 /* DTOpenAPIObject.h in Headers */ = {isa = PBXBuildFile; fileRef = AC5BF05EBDB1E54BBCAB40ABBD9E4233 /* DTOpenAPIObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EFB86A6E2A1E7DAE6233902606128A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A8597F6B1D00DD95794A50D1C9553948 /* Pods-DTShare_Swift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE4519BDA0CFF50B0C4D590C7F54D91 /* Pods-DTShare_Swift_Tests-dummy.m */; };
 		C43B56C0FEAFD0482CE6C45811356028 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		DCF307B67EACEA6C1AEEC8C594538E48 /* DTOpenAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = A9EA790650788CC5E1F1B1505F95C978 /* DTOpenAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DED6D1E4EBAE55A06E95321197AB3A26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		EC2BECFA7D069971C1741B731B2C2D6A /* DTShare_Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85306B193B81368747A3E92D78BEB773 /* DTShare_Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF27DE5DCEBFE4CDA9667DA8E730501A /* DTOpenAPIObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 06B7C1714240DDA0106C2FC139D2D01F /* DTOpenAPIObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF383DC54492EC9854483F9AD2D152A5 /* DTShare_Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75538301BCFF06BC9132DD678962B07D /* DTShare_Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFBA0BA99CF86C940039CFAA62A07B6 /* DTShare_Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E0F78D0BF147E9B93881BF4E9DAE37 /* DTShare_Swift-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		29CE8472B5F8E2B2BB813768D4798B34 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 17ACA6E471A05BB6B8F73E420C9CA310;
-			remoteInfo = "Pods-DTShare_Swift_Example";
-		};
-		A05E4800D117353AFEEA48804A71D0D2 /* PBXContainerItemProxy */ = {
+		3BB4BB64FDE5DA36EEDE2EFF94A77671 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 360BAA661454543D9373C9B3DBF8EB7E;
 			remoteInfo = DTShare_Swift;
 		};
+		4EF27455F55158C44F1A18C1114C3194 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17ACA6E471A05BB6B8F73E420C9CA310;
+			remoteInfo = "Pods-DTShare_Swift_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		21E930ADC1BB14DBF99D6EEC19FCD2D1 /* DTShareKit */ = {isa = PBXFileReference; includeInIndex = 1; path = DTShareKit; sourceTree = "<group>"; };
-		4410829E547309D432CFC7F533C6369A /* DTShare_Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DTShare_Swift-Info.plist"; sourceTree = "<group>"; };
+		015858B869AE96C4CDB122ADD4B519E1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		06B7C1714240DDA0106C2FC139D2D01F /* DTOpenAPIObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTOpenAPIObject.h; sourceTree = "<group>"; };
+		3BA103337B020F035DA45D62798E0D7B /* DTShare_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DTShare_Swift.debug.xcconfig; sourceTree = "<group>"; };
+		4BFED74A12F1AAEEB6E4F64CC2264615 /* DTShare_Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTShare_Swift-prefix.pch"; sourceTree = "<group>"; };
+		51E0F78D0BF147E9B93881BF4E9DAE37 /* DTShare_Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTShare_Swift-dummy.m"; sourceTree = "<group>"; };
 		5863C61621C8A7EDF2E1B2BF0CCBE3D7 /* Pods-DTShare_Swift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DTShare_Swift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		63BE1A0F632C2E67C79EA03AF871C23C /* DTShare_Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTShare_Swift-prefix.pch"; sourceTree = "<group>"; };
 		6AA3E7BE3C32933F120548F47B6BBFA8 /* Pods-DTShare_Swift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DTShare_Swift_Example-dummy.m"; sourceTree = "<group>"; };
+		6DE87A62CADED942CA43AA85DA073740 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		7274380682E9DEA667E7BC5F35AF029A /* Pods-DTShare_Swift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DTShare_Swift_Example-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75538301BCFF06BC9132DD678962B07D /* DTShare_Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTShare_Swift-umbrella.h"; sourceTree = "<group>"; };
+		77D8AAC344578A014D863CCB10ED26A4 /* DTOpenAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTOpenAPI.h; sourceTree = "<group>"; };
 		7877BB402D0E994DD7B87A0D62F5583B /* Pods-DTShare_Swift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTShare_Swift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8225C9BDC3B4F56907A148A885DC827A /* DTShare_Swift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DTShare_Swift; path = DTShare_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		85306B193B81368747A3E92D78BEB773 /* DTShare_Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTShare_Swift-umbrella.h"; sourceTree = "<group>"; };
-		887F3087A770E8634B2B1F818662210F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		89624BAB30CCFC1220FA5BFFCCE60596 /* Pods-DTShare_Swift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DTShare_Swift_Tests.modulemap"; sourceTree = "<group>"; };
-		965E0545858E1981EB16EA0318E36D04 /* DTShare_Swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DTShare_Swift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8E52705359ACE4DC29BC480F8726BD52 /* DTShare_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DTShare_Swift.release.xcconfig; sourceTree = "<group>"; };
 		975C67F23394A975F9B5E4DBA20E2C75 /* Pods-DTShare_Swift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTShare_Swift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		99AB5A0EAB796D7487A4CA708FAEB43B /* Pods-DTShare_Swift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DTShare_Swift_Example.modulemap"; sourceTree = "<group>"; };
-		9AB3480CC4A32CE2AC83D8EEEB6F9E58 /* DTShareKit */ = {isa = PBXFileReference; includeInIndex = 1; name = DTShareKit; path = DTShare_Swift/Classes/DTShareKit.framework/Versions/A/DTShareKit; sourceTree = "<group>"; };
-		9D2317BA0761E7D00F6E4A545319BADB /* DTShare_Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DTShare_Swift.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A9EA790650788CC5E1F1B1505F95C978 /* DTOpenAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTOpenAPI.h; sourceTree = "<group>"; };
-		AC5BF05EBDB1E54BBCAB40ABBD9E4233 /* DTOpenAPIObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTOpenAPIObject.h; sourceTree = "<group>"; };
+		9FCEA2538F0FB44B2E605625E9AD65C3 /* DTOpenKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTOpenKit.h; sourceTree = "<group>"; };
 		B091524E65980E7058230BF7DD2F3356 /* Pods-DTShare_Swift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DTShare_Swift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B85928954572FE4DC58310F3D0D667F3 /* DTShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DTShareKit.framework; path = DTShare_Swift/Classes/DTShareKit.framework; sourceTree = "<group>"; };
+		BAC70A55DA3376686F1E599C6A1BF55F /* DTShare_Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DTShare_Swift-Info.plist"; sourceTree = "<group>"; };
 		C4A6C3B444BCE50FBAE76EC6D08A41AA /* Pods-DTShare_Swift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTShare_Swift_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C58405429AD2F1F52354BD5E1F930C24 /* DTShare_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DTShare_Swift.release.xcconfig; sourceTree = "<group>"; };
 		C7214860C8B0CD7D7A986975CC5D555F /* Pods-DTShare_Swift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DTShare_Swift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CCE4519BDA0CFF50B0C4D590C7F54D91 /* Pods-DTShare_Swift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DTShare_Swift_Tests-dummy.m"; sourceTree = "<group>"; };
 		CE699B81BB0F7E13ECEFD4DDD1759C1D /* Pods-DTShare_Swift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTShare_Swift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CED2C0AE781E3518BABC158E6D2B1663 /* DTShare_Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTShare_Swift-dummy.m"; sourceTree = "<group>"; };
-		D0D643621D3E3DEA7A2C277AD0B60442 /* DTShare_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DTShare_Swift.debug.xcconfig; sourceTree = "<group>"; };
 		D4451DF2C7BD0080A4F923D992A7BD2A /* Pods-DTShare_Swift_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DTShare_Swift_Example"; path = Pods_DTShare_Swift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D51275A7146D7A3EA4D42A7DD2B0B5FB /* Pods-DTShare_Swift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DTShare_Swift_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D5DF7F32F4E2F7958620F3E27BD24E09 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D721B6C1A55BB4FC48A87AB54883A068 /* Pods-DTShare_Swift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DTShare_Swift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DBDF44BEF96E43E3D510F620923CEBA1 /* Pods-DTShare_Swift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DTShare_Swift_Tests-Info.plist"; sourceTree = "<group>"; };
-		E86A27D8D0B9E2A6AD4554D8101387B5 /* DTOpenKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTOpenKit.h; sourceTree = "<group>"; };
+		E24FB9FC15CB8D6590E0C89870088E16 /* DTShareKit */ = {isa = PBXFileReference; includeInIndex = 1; name = DTShareKit; path = DTShare_Swift/Classes/DTShareKit.framework/Versions/A/DTShareKit; sourceTree = "<group>"; };
+		E404ACAFD2CEDEFA9CE9F7C0A799EBD8 /* DTShare_Swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DTShare_Swift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E73B4C4178D27C6B2E6E0257BE6D2E3D /* DTShare_Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DTShare_Swift.modulemap; sourceTree = "<group>"; };
 		EC14929DD400EA86E67488CAC12743AC /* Pods-DTShare_Swift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DTShare_Swift_Example-umbrella.h"; sourceTree = "<group>"; };
+		EE2AF3D161631A2AC10D1D2D0874DD18 /* DTShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DTShareKit.framework; path = DTShare_Swift/Classes/DTShareKit.framework; sourceTree = "<group>"; };
 		F6250D213D77096406D82331747C8AB3 /* Pods-DTShare_Swift_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DTShare_Swift_Tests"; path = Pods_DTShare_Swift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D76FF35758E20EEB5349ACCA1082F708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EFB86A6E2A1E7DAE6233902606128A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E43D5BC6FEF54F666699EE53A10A8F5B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DED6D1E4EBAE55A06E95321197AB3A26 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E6A9F0D572A64E9097B525CC06BB6613 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4AC4B1BE62F2B3B45FE210E5C710466C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,34 +106,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		179D46E15695B8720B8BD5C6A706D359 /* A */ = {
+		288E98E30C93EB0E9A7D47ACFB2103B4 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				21E930ADC1BB14DBF99D6EEC19FCD2D1 /* DTShareKit */,
-				41603ED796CF9B1F2F7D03749E4CA8FB /* Headers */,
+				E404ACAFD2CEDEFA9CE9F7C0A799EBD8 /* DTShare_Swift.podspec */,
+				6DE87A62CADED942CA43AA85DA073740 /* LICENSE */,
+				015858B869AE96C4CDB122ADD4B519E1 /* README.md */,
 			);
-			name = A;
-			path = A;
-			sourceTree = "<group>";
-		};
-		41603ED796CF9B1F2F7D03749E4CA8FB /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				A9EA790650788CC5E1F1B1505F95C978 /* DTOpenAPI.h */,
-				AC5BF05EBDB1E54BBCAB40ABBD9E4233 /* DTOpenAPIObject.h */,
-				E86A27D8D0B9E2A6AD4554D8101387B5 /* DTOpenKit.h */,
-			);
-			name = Headers;
-			path = Headers;
-			sourceTree = "<group>";
-		};
-		4AFCF3FED7907D14C1D32941F91AF847 /* Versions */ = {
-			isa = PBXGroup;
-			children = (
-				179D46E15695B8720B8BD5C6A706D359 /* A */,
-			);
-			name = Versions;
-			path = DTShare_Swift/Classes/DTShareKit.framework/Versions;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		536BDDC36FCE71C0C872A6BA1A872EDF /* Targets Support Files */ = {
@@ -155,14 +133,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6FF2CD0700BBEE3DD15C80151E1228F1 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B85928954572FE4DC58310F3D0D667F3 /* DTShareKit.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		74C8616029C045D924E77F08677ACAB0 /* Pods-DTShare_Swift_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,22 +149,40 @@
 			path = "Target Support Files/Pods-DTShare_Swift_Example";
 			sourceTree = "<group>";
 		};
-		861D72C671C83981A5A06FF20A76F396 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				965E0545858E1981EB16EA0318E36D04 /* DTShare_Swift.podspec */,
-				D5DF7F32F4E2F7958620F3E27BD24E09 /* LICENSE */,
-				887F3087A770E8634B2B1F818662210F /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		89349887206DD2621C5C084DCA97E480 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F631182649D966214C23444FF8586586 /* DTShare_Swift */,
+				C38DBD9122EA3523EBEF22DF69086CE5 /* DTShare_Swift */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A146CB73E08A9DB72463958694766387 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E73B4C4178D27C6B2E6E0257BE6D2E3D /* DTShare_Swift.modulemap */,
+				51E0F78D0BF147E9B93881BF4E9DAE37 /* DTShare_Swift-dummy.m */,
+				BAC70A55DA3376686F1E599C6A1BF55F /* DTShare_Swift-Info.plist */,
+				4BFED74A12F1AAEEB6E4F64CC2264615 /* DTShare_Swift-prefix.pch */,
+				75538301BCFF06BC9132DD678962B07D /* DTShare_Swift-umbrella.h */,
+				3BA103337B020F035DA45D62798E0D7B /* DTShare_Swift.debug.xcconfig */,
+				8E52705359ACE4DC29BC480F8726BD52 /* DTShare_Swift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DTShare_Swift";
+			sourceTree = "<group>";
+		};
+		C38DBD9122EA3523EBEF22DF69086CE5 /* DTShare_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				E24FB9FC15CB8D6590E0C89870088E16 /* DTShareKit */,
+				EBD5D63F32AC18E54141D6B7D774FD8C /* Frameworks */,
+				D253BFCC0E431E39C0A8CC313D36AC58 /* Headers */,
+				288E98E30C93EB0E9A7D47ACFB2103B4 /* Pod */,
+				A146CB73E08A9DB72463958694766387 /* Support Files */,
+			);
+			name = DTShare_Swift;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CE69731DAEAF17802879E83E1E33381B /* Products */ = {
@@ -226,32 +214,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EB583B5E8083BE83DAF9162BE30B4EE8 /* Support Files */ = {
+		D253BFCC0E431E39C0A8CC313D36AC58 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				9D2317BA0761E7D00F6E4A545319BADB /* DTShare_Swift.modulemap */,
-				CED2C0AE781E3518BABC158E6D2B1663 /* DTShare_Swift-dummy.m */,
-				4410829E547309D432CFC7F533C6369A /* DTShare_Swift-Info.plist */,
-				63BE1A0F632C2E67C79EA03AF871C23C /* DTShare_Swift-prefix.pch */,
-				85306B193B81368747A3E92D78BEB773 /* DTShare_Swift-umbrella.h */,
-				D0D643621D3E3DEA7A2C277AD0B60442 /* DTShare_Swift.debug.xcconfig */,
-				C58405429AD2F1F52354BD5E1F930C24 /* DTShare_Swift.release.xcconfig */,
+				77D8AAC344578A014D863CCB10ED26A4 /* DTOpenAPI.h */,
+				06B7C1714240DDA0106C2FC139D2D01F /* DTOpenAPIObject.h */,
+				9FCEA2538F0FB44B2E605625E9AD65C3 /* DTOpenKit.h */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DTShare_Swift";
+			name = Headers;
+			path = DTShare_Swift/Classes/DTShareKit.framework/Versions/A/Headers;
 			sourceTree = "<group>";
 		};
-		F631182649D966214C23444FF8586586 /* DTShare_Swift */ = {
+		EBD5D63F32AC18E54141D6B7D774FD8C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9AB3480CC4A32CE2AC83D8EEEB6F9E58 /* DTShareKit */,
-				6FF2CD0700BBEE3DD15C80151E1228F1 /* Frameworks */,
-				861D72C671C83981A5A06FF20A76F396 /* Pod */,
-				EB583B5E8083BE83DAF9162BE30B4EE8 /* Support Files */,
-				4AFCF3FED7907D14C1D32941F91AF847 /* Versions */,
+				EE2AF3D161631A2AC10D1D2D0874DD18 /* DTShareKit.framework */,
 			);
-			name = DTShare_Swift;
-			path = ../..;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		F81D5F00B2AB83030E4BD12623B2AED0 /* Pods-DTShare_Swift_Tests */ = {
@@ -281,14 +260,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A241FC5A85688AB7FFEC8C887288726 /* Headers */ = {
+		504BEFBE260956594C080F889DDF89F3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCF307B67EACEA6C1AEEC8C594538E48 /* DTOpenAPI.h in Headers */,
-				9760248C0F151A825D7385533FC60451 /* DTOpenAPIObject.h in Headers */,
-				020310665A17AEFCA27A62537CC1896D /* DTOpenKit.h in Headers */,
-				EC2BECFA7D069971C1741B731B2C2D6A /* DTShare_Swift-umbrella.h in Headers */,
+				4E4AC75F4358D6351DB4FA652683E9EF /* DTOpenAPI.h in Headers */,
+				DF27DE5DCEBFE4CDA9667DA8E730501A /* DTOpenAPIObject.h in Headers */,
+				672023474E74D49BED8DD438281854CC /* DTOpenKit.h in Headers */,
+				EF383DC54492EC9854483F9AD2D152A5 /* DTShare_Swift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +294,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				72FF3C65F4D4F3028329E8D1E9EED386 /* PBXTargetDependency */,
+				52493F7E905789E49F90A2A78258DDE7 /* PBXTargetDependency */,
 			);
 			name = "Pods-DTShare_Swift_Example";
 			productName = Pods_DTShare_Swift_Example;
@@ -324,12 +303,12 @@
 		};
 		360BAA661454543D9373C9B3DBF8EB7E /* DTShare_Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28DA358DBF0607A14E652089493BCAFF /* Build configuration list for PBXNativeTarget "DTShare_Swift" */;
+			buildConfigurationList = FFAC1C6582BC3F3AF3A064C246208E33 /* Build configuration list for PBXNativeTarget "DTShare_Swift" */;
 			buildPhases = (
-				8A241FC5A85688AB7FFEC8C887288726 /* Headers */,
-				2AEF76F1F6ADB5602B5307646A6B406C /* Sources */,
-				E6A9F0D572A64E9097B525CC06BB6613 /* Frameworks */,
-				40216FA97125C5AFACE62D574B3719B8 /* Resources */,
+				504BEFBE260956594C080F889DDF89F3 /* Headers */,
+				7375DCAC5A6C1C2D2446C12F9FFAB6F7 /* Sources */,
+				D76FF35758E20EEB5349ACCA1082F708 /* Frameworks */,
+				F0895A684D7DE0019A48082991FFC823 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -352,7 +331,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				1D3D19B4E77E263DD0E7D61C906482F8 /* PBXTargetDependency */,
+				ADF248FD65DA545DE6100645A86733A6 /* PBXTargetDependency */,
 			);
 			name = "Pods-DTShare_Swift_Tests";
 			productName = Pods_DTShare_Swift_Tests;
@@ -396,14 +375,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		40216FA97125C5AFACE62D574B3719B8 /* Resources */ = {
+		85DD3E8C74D7B668333B7705D40276D8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85DD3E8C74D7B668333B7705D40276D8 /* Resources */ = {
+		F0895A684D7DE0019A48082991FFC823 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -413,13 +392,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2AEF76F1F6ADB5602B5307646A6B406C /* Sources */ = {
+		7375DCAC5A6C1C2D2446C12F9FFAB6F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31636DF191DA01324CC0810258BFFAC4 /* DTShare_Swift-dummy.m in Sources */,
-				38D0FB594121B9D72E4AE89A4ADA72D7 /* DTShareKit in Sources */,
-				8C9E2397EF4851112D61205C0E637C5F /* DTShareKit in Sources */,
+				FCFBA0BA99CF86C940039CFAA62A07B6 /* DTShare_Swift-dummy.m in Sources */,
+				3637087C32AF2081DEC39291CC534F52 /* DTShareKit in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,17 +420,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1D3D19B4E77E263DD0E7D61C906482F8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-DTShare_Swift_Example";
-			target = 17ACA6E471A05BB6B8F73E420C9CA310 /* Pods-DTShare_Swift_Example */;
-			targetProxy = 29CE8472B5F8E2B2BB813768D4798B34 /* PBXContainerItemProxy */;
-		};
-		72FF3C65F4D4F3028329E8D1E9EED386 /* PBXTargetDependency */ = {
+		52493F7E905789E49F90A2A78258DDE7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DTShare_Swift;
 			target = 360BAA661454543D9373C9B3DBF8EB7E /* DTShare_Swift */;
-			targetProxy = A05E4800D117353AFEEA48804A71D0D2 /* PBXContainerItemProxy */;
+			targetProxy = 3BB4BB64FDE5DA36EEDE2EFF94A77671 /* PBXContainerItemProxy */;
+		};
+		ADF248FD65DA545DE6100645A86733A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DTShare_Swift_Example";
+			target = 17ACA6E471A05BB6B8F73E420C9CA310 /* Pods-DTShare_Swift_Example */;
+			targetProxy = 4EF27455F55158C44F1A18C1114C3194 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -523,39 +501,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		6F4E05DAB705F216721458D72FD9374F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C58405429AD2F1F52354BD5E1F930C24 /* DTShare_Swift.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DTShare_Swift/DTShare_Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DTShare_Swift/DTShare_Swift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/DTShare_Swift/DTShare_Swift.modulemap";
-				PRODUCT_MODULE_NAME = DTShare_Swift;
-				PRODUCT_NAME = DTShare_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -646,38 +591,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C2F6769EE9345BEB5D8412D3AB54F6CC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0D643621D3E3DEA7A2C277AD0B60442 /* DTShare_Swift.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DTShare_Swift/DTShare_Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DTShare_Swift/DTShare_Swift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/DTShare_Swift/DTShare_Swift.modulemap";
-				PRODUCT_MODULE_NAME = DTShare_Swift;
-				PRODUCT_NAME = DTShare_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -784,6 +697,71 @@
 			};
 			name = Debug;
 		};
+		F65868D2AA63A986E8F47AA2A2B83335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E52705359ACE4DC29BC480F8726BD52 /* DTShare_Swift.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DTShare_Swift/DTShare_Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DTShare_Swift/DTShare_Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/DTShare_Swift/DTShare_Swift.modulemap";
+				PRODUCT_MODULE_NAME = DTShare_Swift;
+				PRODUCT_NAME = DTShare_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FCADCE1D864F2EB9D946B050ACF9296C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BA103337B020F035DA45D62798E0D7B /* DTShare_Swift.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DTShare_Swift/DTShare_Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DTShare_Swift/DTShare_Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/DTShare_Swift/DTShare_Swift.modulemap";
+				PRODUCT_MODULE_NAME = DTShare_Swift;
+				PRODUCT_NAME = DTShare_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -805,20 +783,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28DA358DBF0607A14E652089493BCAFF /* Build configuration list for PBXNativeTarget "DTShare_Swift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C2F6769EE9345BEB5D8412D3AB54F6CC /* Debug */,
-				6F4E05DAB705F216721458D72FD9374F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
 				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFAC1C6582BC3F3AF3A064C246208E33 /* Build configuration list for PBXNativeTarget "DTShare_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCADCE1D864F2EB9D946B050ACF9296C /* Debug */,
+				F65868D2AA63A986E8F47AA2A2B83335 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

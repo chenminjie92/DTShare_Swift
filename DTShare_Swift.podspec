@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name              = "DTShare_Swift"
-  spec.version           = '1.9.2'
+  spec.version           = '1.9.3'
   spec.license           = { :type => 'MIT', :text => <<-LICENSE
                               Copyright 2019
                               LICENSE
@@ -24,8 +24,8 @@ Pod::Spec.new do |spec|
   spec.platform          = :ios, "10.0"
   spec.static_framework  = true
   
-  spec.public_header_files = 'DTShare_Swift/Classes/**/*.h'
-  spec.source_files      = 'DTShare_Swift/Classes/**/*'
+  spec.public_header_files = 'DTShare_Swift/Classes/DTShareKit.framework/Versions/A/**/*.h'
+  spec.source_files      = 'DTShare_Swift/Classes/DTShareKit.framework/Versions/A/**/*'
   spec.frameworks = 'AVFoundation'
   
 

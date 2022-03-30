@@ -19,8 +19,8 @@
     "ios": "10.0"
   },
   "static_framework": true,
-  "public_header_files": "DTShare_Swift/Classes/**/*.h",
-  "source_files": "DTShare_Swift/Classes/**/*",
+  "public_header_files": "DTShare_Swift/Classes/DTShareKit.framework/Versions/A/**/*.h",
+  "source_files": "DTShare_Swift/Classes/DTShareKit.framework/Versions/A/**/*",
   "frameworks": "AVFoundation",
   "vendored_frameworks": "DTShare_Swift/Classes/DTShareKit.framework",
   "xcconfig": {
